@@ -1,4 +1,4 @@
-*.parameters-*.json
+*.parameters.*.bicepparam
 __azurite_db_*
 __blobstorage__
 scripts.sh

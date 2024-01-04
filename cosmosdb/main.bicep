@@ -1,10 +1,10 @@
-@description('リソースのリージョン')
+@description('region of target resource group')
 param location string = resourceGroup().location
-@description('Cosmos DBのアカウント名（44文字以内）')
+@description('Name of CosmosDB account（max char length: 44）')
 param accountName string
-@description('割り当て対象のサービスプリンシパルID(GUID形式)')
+@description('Service principal id of role assignment target(guid)')
 param principalId string
-@description('Azure Active DirectoryのオブジェクトID(GUID形式)')
+@description('object id of user principal(guid)')
 param administratorPrincipalId string
 
 param isNew bool = false
